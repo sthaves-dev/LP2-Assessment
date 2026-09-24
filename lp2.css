@@ -1,16 +1,35 @@
-.card{
-	box-shadow: 4px 8px 12px,
-	4px 8px 12px;
-	border-radius: 12px;
+.product-card{
+	border: 12px, solid, chocolate; 
+	width: 350px;
 }
 
-body{
-	background-color:bisque;
+.product-photo-wrapper{
+	height: 320px;
+	width: 320px;
+	position: relative;
 }
 
-.image1{
-	margin: auto;
-	width: 200px;
-	height: 200px;
-	border-radius: 12px;
+.product-photo-wrapper img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+.product-body{
+	padding: 1.2rem;
+	color: brown;
+}
+
+.product-body h2{
+	font-size: 1.6rem;
+}
+
+.product-price{
+	font-size: 1.05rem;
+	font-weight: 700;
+}
+
+.product-desc{
+	font-size: .90rem;
 }
