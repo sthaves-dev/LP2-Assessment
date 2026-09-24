@@ -2,10 +2,10 @@
 	box-shadow: 4px 8px 12px,
 	4px 8px 12px;
 	border-radius: 12px;
-	width: fit-content;
 }
 
-main{
+
+body{
 	background-color:bisque;
 }
 
