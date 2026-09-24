@@ -1,43 +1,12 @@
-.card1{
-    position: left; /* change table properties */
-	width: fit-content;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 50px;
-}
-
-.card2{
-	position: center;
-	width: fit-content;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 50px;
-}
-
-.card3{
-	position: right;
-	width: fit-content;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 50px;
-}
-
-main{
-	background-color:bisque;
-}
-
-
 .card{
 	box-shadow: 4px 8px 12px,
 	4px 8px 12px;
 	border-radius: 12px;
+	width: fit-content;
 }
 
-section{
-	border-radius: 12px;
-	color: black;
-	border-style: solid;
-	margin: auto;
+main{
+	background-color:bisque;
 }
 
 .image1{
