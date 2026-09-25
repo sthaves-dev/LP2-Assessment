@@ -1,6 +1,10 @@
 .product-card{
-	border: 12px, solid, chocolate; 
 	width: 350px;
+	border-width:3px;
+	border-color:darkred;
+	border-style: solid;
+	border-radius: 12px;
+	box-shadow: 0px 4px 10px;
 }
 
 .product-photo-wrapper{
@@ -14,7 +18,12 @@
 	height: 100%;
 	display: block;
 	object-fit: cover;
+	border-radius: 12px;
 }
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
 
 .product-body{
 	padding: 1.2rem;
@@ -23,6 +32,7 @@
 
 .product-body h2{
 	font-size: 1.6rem;
+	font-family: "Montserrat", sans-serif;
 }
 
 .product-price{
@@ -32,4 +42,16 @@
 
 .product-desc{
 	font-size: .90rem;
+}
+
+body{
+	background-color:beige;
+}
+
+.custombutton{
+	border-radius: 10px;
+	position:relative;
+	background-color:chocolate;
+	color:white;
+	font-weight: 6px;
 }
