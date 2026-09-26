@@ -1,10 +1,16 @@
 .product-card{
-	width: 350px;
+	width: 320px;
 	border-width:3px;
 	border-color:darkred;
 	border-style: solid;
 	border-radius: 12px;
 	box-shadow: 0px 4px 10px;
+	gap: 16px;
+}
+
+div.product-card:hover{
+	transform: scale(1.05);
+	transition: transform 0.3s ease-in-out;
 }
 
 .product-photo-wrapper{
@@ -21,9 +27,7 @@
 	border-radius: 12px;
 }
 
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-</style>
 
 .product-body{
 	padding: 1.2rem;
@@ -51,7 +55,7 @@ body{
 .custombutton{
 	border-radius: 10px;
 	position:relative;
-	background-color:chocolate;
+	background-image: linear-gradient(to bottom, darkred, red);
 	color:white;
-	font-weight: 6px;
+	font-weight: 600;
 }
